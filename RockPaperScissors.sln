@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{CF40101C-67E8-49E8-9C44-058370373B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{00A55787-3574-482D-9FEB-E88729AD0A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.UnitTests", "RockPaperScissors.UnitTests\RockPaperScissors.UnitTests.csproj", "{272C3FC6-2C33-42A6-B662-209C9FE9B457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.GameConsole", "RockPaperScissors.Console\RockPaperScissors.GameConsole.csproj", "{91EA08DA-5BE5-4580-8FC5-68A3DE60824D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF40101C-67E8-49E8-9C44-058370373B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF40101C-67E8-49E8-9C44-058370373B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF40101C-67E8-49E8-9C44-058370373B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF40101C-67E8-49E8-9C44-058370373B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272C3FC6-2C33-42A6-B662-209C9FE9B457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272C3FC6-2C33-42A6-B662-209C9FE9B457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272C3FC6-2C33-42A6-B662-209C9FE9B457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272C3FC6-2C33-42A6-B662-209C9FE9B457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EA08DA-5BE5-4580-8FC5-68A3DE60824D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EA08DA-5BE5-4580-8FC5-68A3DE60824D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EA08DA-5BE5-4580-8FC5-68A3DE60824D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EA08DA-5BE5-4580-8FC5-68A3DE60824D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{272C3FC6-2C33-42A6-B662-209C9FE9B457} = {00A55787-3574-482D-9FEB-E88729AD0A8B}
+	EndGlobalSection
+EndGlobal
